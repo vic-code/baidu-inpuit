@@ -1,0 +1,62 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+input{outline:none;}
+
+body{
+    font-family:Arial,'Times New Roman','Microsoft YaHei',SimHei;
+}
+
+.container{
+
+}
+.header{
+    width:100%;
+    text-align:center;
+}
+.input_section{
+    display:inline-block;
+    font-size:2em;
+}
+
+h3{
+    margin:1em 0;
+
+}
+input{
+    position:relative;
+    width:25em;
+    /*height:3.5em;*/
+    border-radius:.3em;
+    font-style: italic;
+    font-size:23px;
+
+}
+
+/*搜索弹出框*/
+.autocomplete{
+    border:2px solid #ccc;
+    border-top:none;
+    background-color: white;
+    text-align: left;
+}
+
+.autocomplete li span{
+    color: #A73535;
+}
+
+.popmenu li{
+    list-style: none;
+
+}
+
+.highlight {
+    background-color: #9ACCFB;
+}
+.clickable {
+    list-style:none;
+    cursor: pointer;
+    //text-align:left;
+}
