@@ -58,5 +58,5 @@ input{
 .clickable {
     list-style:none;
     cursor: pointer;
-    //text-align:left;
+    /*text-align:left;*/
 }
